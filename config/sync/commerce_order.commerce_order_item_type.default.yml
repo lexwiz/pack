@@ -1,0 +1,15 @@
+uuid: 9d7142b5-6bee-4ae9-bfcb-8902e5a406f7
+langcode: ru
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_product
+_core:
+  default_config_hash: 6n6q97CDOCqHGs4Dun3BqVJE6e1o6TA-69qCwoUU-SY
+label: 'Стандартный вариант товара'
+id: default
+purchasableEntityType: commerce_product_variation
+orderType: default
+traits: {  }
+locked: false

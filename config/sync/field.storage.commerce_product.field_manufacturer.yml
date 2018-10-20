@@ -1,0 +1,20 @@
+uuid: bb896f7c-1ce8-4149-9737-9ec2fd57ca52
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - taxonomy
+id: commerce_product.field_manufacturer
+field_name: field_manufacturer
+entity_type: commerce_product
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: 0df02376-8997-4139-ab8d-ea4db4fc47db
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - upak
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: upak_breadcrumbs
+theme: upak
+region: content
+weight: -6
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Строка навигации'
+  provider: system
+  label_display: '0'
+visibility: {  }

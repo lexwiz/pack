@@ -1,0 +1,21 @@
+uuid: bec3ef66-6bd0-4423-b95e-1eb002cc11ee
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_cart
+  theme:
+    - upak
+id: cart
+theme: upak
+region: sidebar_first
+weight: 0
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Cart
+  provider: commerce_cart
+  label_display: visible
+  dropdown: true
+visibility: {  }

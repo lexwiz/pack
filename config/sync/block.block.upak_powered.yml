@@ -1,0 +1,22 @@
+uuid: 5bbd105a-703f-4950-96aa-15543e3e28b9
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - upak
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: upak_powered
+theme: upak
+region: footer
+weight: -5
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Сделано на Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

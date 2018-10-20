@@ -1,0 +1,13 @@
+uuid: 14a18c19-be84-43f8-beda-00fe2a847146
+langcode: ru
+status: true
+dependencies: {  }
+id: code_backup
+label: 'Code Backup'
+enabled: true
+keep: 2
+period: 259200
+cron: null
+source_id: entire_site
+destination_id: private_files
+settings_profile_id: null

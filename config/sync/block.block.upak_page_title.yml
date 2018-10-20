@@ -1,0 +1,20 @@
+uuid: 1d9b2008-5c29-4851-aadd-9f046959bbcd
+langcode: ru
+status: true
+dependencies:
+  theme:
+    - upak
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: upak_page_title
+theme: upak
+region: content
+weight: -4
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Заголовок страницы'
+  provider: core
+  label_display: '0'
+visibility: {  }

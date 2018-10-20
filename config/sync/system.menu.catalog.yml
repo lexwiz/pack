@@ -1,0 +1,8 @@
+uuid: e0511c0d-ae65-442d-8f49-0d5c45a92b3d
+langcode: ru
+status: true
+dependencies: {  }
+id: catalog
+label: Catalog
+description: 'Products catalog menu'
+locked: false

@@ -1,0 +1,22 @@
+uuid: bb6a8fbb-abb2-4fdd-928d-2dcb28086b2d
+langcode: ru
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - upak
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: upak_help
+theme: upak
+region: help
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Справка
+  provider: help
+  label_display: '0'
+visibility: {  }

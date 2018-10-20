@@ -1,0 +1,22 @@
+uuid: 82cb79a7-95f6-4add-9c20-dfd191c1f01f
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - upak
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: upak_messages
+theme: upak
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

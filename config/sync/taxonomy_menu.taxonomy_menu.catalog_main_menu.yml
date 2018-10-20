@@ -1,0 +1,14 @@
+uuid: 9e8a4ec0-4d9c-4296-98a5-86911d49b9e6
+langcode: ru
+status: true
+dependencies:
+  config:
+    - system.menu.main
+    - taxonomy.vocabulary.catalog
+id: catalog_main_menu
+label: 'Catalog main menu'
+vocabulary: catalog
+menu: main
+expanded: true
+depth: 2
+menu_parent: 'main:menu_link_content:1fe1e2e1-70b6-40ee-8eaf-c8ae57779105'

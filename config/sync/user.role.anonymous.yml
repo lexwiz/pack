@@ -1,0 +1,20 @@
+uuid: dab39631-3904-4b8f-894d-2c44fe4d60a2
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Анонимный пользователь'
+weight: 0
+is_admin: false
+permissions:
+  - 'access checkout'
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'display eu cookie compliance popup'
+  - 'post comments'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view commerce_product'

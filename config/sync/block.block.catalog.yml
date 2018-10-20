@@ -1,0 +1,24 @@
+uuid: 3bf90528-09eb-4674-94c7-4cecb4787603
+langcode: ru
+status: true
+dependencies:
+  config:
+    - system.menu.catalog
+  module:
+    - system
+  theme:
+    - upak
+id: catalog
+theme: upak
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:catalog'
+settings:
+  id: 'system_menu_block:catalog'
+  label: Catalog
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 3
+visibility: {  }

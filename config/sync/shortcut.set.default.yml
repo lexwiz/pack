@@ -1,0 +1,8 @@
+uuid: 2b8ffa59-97b6-4df4-9a41-15d44c4a69e9
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: U5VlGjd_SfV0Qm_EfnaynOfc549cNscFAx48JfYoMRI
+id: default
+label: 'Стандартный вариант товара'

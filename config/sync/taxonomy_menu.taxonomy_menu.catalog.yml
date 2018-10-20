@@ -1,0 +1,14 @@
+uuid: 7e167d92-5e1a-4cb4-9599-f0ae9994185f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - system.menu.catalog
+    - taxonomy.vocabulary.catalog
+id: catalog
+label: Catalog
+vocabulary: catalog
+menu: catalog
+expanded: true
+depth: 2
+menu_parent: 'catalog:'

@@ -1,0 +1,9 @@
+uuid: 5295620c-af5e-4199-b142-0ad606449f8b
+langcode: ru
+status: true
+dependencies: {  }
+name: Manufacturer
+vid: manufacturer
+description: 'Product manufacturer'
+hierarchy: 0
+weight: 0

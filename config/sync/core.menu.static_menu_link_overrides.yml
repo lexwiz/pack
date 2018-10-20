@@ -1,0 +1,46 @@
+definitions:
+  contact__site_page:
+    menu_name: footer
+    parent: ''
+    weight: 0
+    expanded: false
+    enabled: true
+  standard__front_page:
+    weight: -50
+    menu_name: main
+    parent: ''
+    enabled: false
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog_main_menu__12':
+    weight: -50
+    menu_name: main
+    parent: 'menu_link_content:1fe1e2e1-70b6-40ee-8eaf-c8ae57779105'
+    enabled: true
+    expanded: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog_main_menu__1':
+    weight: -49
+    menu_name: main
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog_main_menu.12'
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog_main_menu__5':
+    weight: 0
+    expanded: true
+    enabled: true
+    menu_name: main
+    parent: 'menu_link_content:1fe1e2e1-70b6-40ee-8eaf-c8ae57779105'
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog_main_menu__7':
+    weight: -47
+    menu_name: main
+    parent: 'menu_link_content:1fe1e2e1-70b6-40ee-8eaf-c8ae57779105'
+    expanded: true
+    enabled: true
+  'taxonomy_menu__menu_link:taxonomy_menu__menu_link__catalog_main_menu__10':
+    weight: -46
+    menu_name: main
+    parent: 'taxonomy_menu.menu_link:taxonomy_menu.menu_link.catalog_main_menu.7'
+    expanded: true
+    enabled: true
+_core:
+  default_config_hash: jdY7AU0tU-QsjmiOw3W8vwpYMb-By--_MSFgbqKUTYM
+langcode: ru

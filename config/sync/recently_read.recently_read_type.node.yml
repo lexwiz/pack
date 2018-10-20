@@ -1,0 +1,10 @@
+uuid: 47b89b50-63d7-4645-b82e-ca9c53530eb9
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 8B7lXSdMCMx3Lyn-KB5T3UEO8LyFV23FTrZEioCmPC4
+id: node
+label: Node
+enabled: false
+types: {  }

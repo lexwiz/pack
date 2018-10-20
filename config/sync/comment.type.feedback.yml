@@ -1,0 +1,8 @@
+uuid: 82309def-4eb3-4e92-9523-71b1fd16cc72
+langcode: ru
+status: true
+dependencies: {  }
+id: feedback
+label: Feedback
+target_entity_type_id: commerce_product
+description: ''

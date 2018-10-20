@@ -1,0 +1,28 @@
+uuid: c58358a8-580e-4e8f-a915-091670dda358
+langcode: ru
+status: true
+dependencies:
+  config:
+    - comment.type.feedback
+    - field.field.comment.feedback.comment_body
+  module:
+    - text
+id: comment.feedback.default
+targetEntityType: comment
+bundle: feedback
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

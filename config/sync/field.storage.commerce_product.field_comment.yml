@@ -1,0 +1,20 @@
+uuid: cfb2581d-4673-4863-978d-210d680f6ec7
+langcode: ru
+status: true
+dependencies:
+  module:
+    - comment
+    - commerce_product
+id: commerce_product.field_comment
+field_name: field_comment
+entity_type: commerce_product
+type: comment
+settings:
+  comment_type: feedback
+module: comment
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

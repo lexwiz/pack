@@ -1,0 +1,13 @@
+uuid: 53c508be-00d4-48be-865c-f6cc84e03db4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.image_text
+_core:
+  default_config_hash: U89Wtyalt5T1oNEmW06kuACfi6GqSAxgV1zNx4pni1w
+id: paragraph.image_text
+target_entity_type_id: paragraph
+target_bundle: image_text
+default_langcode: site_default
+language_alterable: true

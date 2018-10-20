@@ -1,0 +1,13 @@
+uuid: 2a9d0430-b9e1-4472-a72a-beaaaa6b8db2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.user
+_core:
+  default_config_hash: 0se0NlfkzTARsbTipTCXQVOSkZGk1b5-eBIcdTSOIls
+id: paragraph.user
+target_entity_type_id: paragraph
+target_bundle: user
+default_langcode: site_default
+language_alterable: true

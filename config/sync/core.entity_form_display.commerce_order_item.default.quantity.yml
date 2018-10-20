@@ -1,0 +1,33 @@
+uuid: fba7687b-580b-472c-9858-44a8120b897e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - commerce_order.commerce_order_item_type.default
+    - core.entity_form_mode.commerce_order_item.quantity
+  enforced:
+    module:
+      - commerce_product
+  module:
+    - commerce_order
+_core:
+  default_config_hash: AI9120ApX7uexCUMTuO3RgE5bWu8175i_bNlPMRXe7M
+id: commerce_order_item.default.quantity
+targetEntityType: commerce_order_item
+bundle: default
+mode: quantity
+content:
+  quantity:
+    type: commerce_quantity
+    weight: 0
+    settings:
+      placeholder: ''
+      step: '1'
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  purchased_entity: true
+  status: true
+  uid: true
+  unit_price: true

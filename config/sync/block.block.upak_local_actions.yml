@@ -1,0 +1,20 @@
+uuid: fd71dddc-9c54-48d8-838a-c43e73dcbd61
+langcode: ru
+status: true
+dependencies:
+  theme:
+    - upak
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: upak_local_actions
+theme: upak
+region: content
+weight: -3
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Основные действия администратора'
+  provider: core
+  label_display: '0'
+visibility: {  }

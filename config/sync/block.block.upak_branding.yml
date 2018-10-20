@@ -1,0 +1,25 @@
+uuid: 49d3620a-4ec0-4bc3-bdf6-e1cb0e34e835
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - upak
+_core:
+  default_config_hash: NDwadleLD3YVSbDUaakxyYZyINYtkFtOVGShfq4kWy8
+id: upak_branding
+theme: upak
+region: header
+weight: -8
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Брендинг сайта'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: true
+visibility: {  }

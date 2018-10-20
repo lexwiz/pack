@@ -1,0 +1,18 @@
+uuid: 22282ef3-5ea8-43c9-96fd-b5cfa62e0ed4
+langcode: ru
+status: true
+dependencies: {  }
+id: bank
+label: Bank
+weight: null
+plugin: manual
+configuration:
+  instructions:
+    value: ''
+    format: plain_text
+  display_label: 'Банковский перевод'
+  mode: n/a
+  payment_method_types:
+    - credit_card
+conditions: {  }
+conditionOperator: AND

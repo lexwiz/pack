@@ -1,0 +1,9 @@
+uuid: df6b551c-71f4-4364-8982-f3a0b76b044b
+langcode: ru
+status: true
+dependencies: {  }
+name: Country
+vid: country
+description: 'Product country'
+hierarchy: 0
+weight: 0

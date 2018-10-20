@@ -1,0 +1,9 @@
+uuid: e04fd513-5d86-4473-b44d-dad0c6dd3dff
+langcode: ru
+status: true
+dependencies: {  }
+name: Catalog
+vid: catalog
+description: 'Products catalog'
+hierarchy: 1
+weight: 0
