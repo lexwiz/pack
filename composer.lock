@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "db2ad1f563cd1587f7ef380d3cbbf772",
+    "content-hash": "157f7716c92e43454f0cbda0b34c5594",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3979,64 +3979,6 @@
                 "issues": "http://drupal.org/project/issues/feeds_tamper"
             },
             "time": "2018-08-31T20:25:03+00:00"
-        },
-        {
-            "name": "drupal/field_group",
-            "version": "dev-3.x",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupal.org/project/field_group",
-                "reference": "072bf212d8e13aa242a4e274e5a4837a0e0ffc5e"
-            },
-            "require": {
-                "drupal/core": "*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-3.x": "3.x-dev"
-                },
-                "drupal": {
-                    "version": "8.x-3.0-beta1+20-dev",
-                    "datestamp": "1533547380",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Dev releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Hydra",
-                    "homepage": "https://www.drupal.org/user/647364"
-                },
-                {
-                    "name": "Stalski",
-                    "homepage": "https://www.drupal.org/user/322618"
-                },
-                {
-                    "name": "jyve",
-                    "homepage": "https://www.drupal.org/user/591438"
-                },
-                {
-                    "name": "swentel",
-                    "homepage": "https://www.drupal.org/user/107403"
-                },
-                {
-                    "name": "zuuperman",
-                    "homepage": "https://www.drupal.org/user/361625"
-                }
-            ],
-            "description": "Provides the field_group module.",
-            "homepage": "https://www.drupal.org/project/field_group",
-            "support": {
-                "source": "http://cgit.drupalcode.org/field_group"
-            },
-            "time": "2018-08-06T10:30:37+00:00"
         },
         {
             "name": "drupal/inline_entity_form",
@@ -10567,7 +10509,6 @@
         "drupal/entity_usage": 15,
         "drupal/feeds": 15,
         "drupal/feeds_tamper": 20,
-        "drupal/field_group": 20,
         "drupal/product_taxonomy_filter": 20
     },
     "prefer-stable": true,
