@@ -28,6 +28,7 @@
         "drupal/commerce_quantity_increments": "^2.0",
         "drupal/commerce_shipping": "^2.0@beta",
         "drupal/commerce_stock": "^1.0",
+        "drupal/config_installer": "^1.8",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.6.0",
         "drupal/dc_ajax_add_cart": "^1.0@beta",
