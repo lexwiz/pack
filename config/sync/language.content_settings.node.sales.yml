@@ -1,0 +1,11 @@
+uuid: 91469052-1262-4593-adf3-3c100ba41403
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.sales
+id: node.sales
+target_entity_type_id: node
+target_bundle: sales
+default_langcode: site_default
+language_alterable: false

@@ -14,7 +14,6 @@ dependencies:
     - commerce_price
     - commerce_product
     - product_taxonomy_filter
-    - views_bootstrap
 id: products
 label: Products
 module: views
@@ -76,102 +75,11 @@ display:
             offset_label: Offset
           quantity: 9
       style:
-        type: views_bootstrap_table
+        type: default
         options:
           grouping: {  }
           row_class: ''
           default_row_class: true
-          override: 1
-          sticky: 0
-          caption: ''
-          summary: ''
-          description: ''
-          columns:
-            title: title
-            field_catalog: field_catalog
-            field_country: field_country
-            field_manufacturer: field_manufacturer
-            price__number: price__number
-            qty_increments: qty_increments
-            sku: sku
-            field_sku_manufacturer: field_sku_manufacturer
-            field_sku_stock: field_sku_stock
-            variations: variations
-          info:
-            title:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_catalog:
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_country:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_manufacturer:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            price__number:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            qty_increments:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            sku:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_sku_manufacturer:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            field_sku_stock:
-              sortable: 0
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-            variations:
-              align: ''
-              separator: ''
-              empty_column: 0
-              responsive: ''
-          default: '-1'
-          empty_table: 0
-          responsive: 1
-          bootstrap_styles:
-            bordered: bordered
-            hover: hover
-            striped: 0
-            condensed: 0
       row:
         type: fields
         options:
@@ -222,7 +130,7 @@ display:
             trim: false
             preserve_tags: ''
             html: false
-          element_type: h2
+          element_type: span
           element_class: ''
           element_label_type: ''
           element_label_class: ''
@@ -259,7 +167,7 @@ display:
           group_type: group
           admin_label: ''
           label: Catalog
-          exclude: false
+          exclude: true
           alter:
             alter_text: false
             text: ''

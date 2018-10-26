@@ -1,0 +1,11 @@
+uuid: afa98acf-2ad0-4f69-8322-ac82c7ba5825
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.frontpage
+id: node.frontpage
+target_entity_type_id: node
+target_bundle: frontpage
+default_langcode: site_default
+language_alterable: false

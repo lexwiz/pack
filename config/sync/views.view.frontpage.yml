@@ -1,10 +1,9 @@
 uuid: bf3be920-5ac1-4ac8-8e43-71ee089b53a4
 langcode: ru
-status: true
+status: false
 dependencies:
   config:
     - core.entity_view_mode.node.rss
-    - core.entity_view_mode.node.teaser
   module:
     - node
     - user
@@ -193,9 +192,12 @@ display:
           query_comment: ''
           query_tags: {  }
       row:
-        type: 'entity:node'
+        type: fields
         options:
-          view_mode: teaser
+          default_field_elements: true
+          inline: {  }
+          separator: ''
+          hide_empty: false
       sorts:
         sticky:
           admin_label: ''

@@ -1,0 +1,20 @@
+uuid: 9d241d78-226a-40c3-ae61-cf846b2f8e59
+langcode: ru
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - media
+id: commerce_product_variation.field_photos
+field_name: field_photos
+entity_type: commerce_product_variation
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: 10
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

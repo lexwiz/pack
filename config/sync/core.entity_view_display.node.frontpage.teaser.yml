@@ -1,0 +1,21 @@
+uuid: e06a08f7-0775-4007-8646-c8030e1fed16
+langcode: ru
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.frontpage
+  module:
+    - user
+id: node.frontpage.teaser
+targetEntityType: node
+bundle: frontpage
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

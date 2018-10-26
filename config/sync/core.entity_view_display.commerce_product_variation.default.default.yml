@@ -5,6 +5,7 @@ dependencies:
   config:
     - commerce_product.commerce_product_variation_type.default
     - field.field.commerce_product_variation.default.feeds_item
+    - field.field.commerce_product_variation.default.field_photos
     - field.field.commerce_product_variation.default.field_sku_manufacturer
     - field.field.commerce_product_variation.default.field_sku_stock
   module:
@@ -14,6 +15,15 @@ targetEntityType: commerce_product_variation
 bundle: default
 mode: default
 content:
+  field_photos:
+    type: entity_reference_entity_view
+    weight: 6
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
   field_sku_manufacturer:
     weight: 4
     label: inline

@@ -8,14 +8,14 @@ dependencies:
     - upak
 id: cart
 theme: upak
-region: sidebar_first
-weight: 0
+region: footer
+weight: -6
 provider: null
 plugin: commerce_cart
 settings:
   id: commerce_cart
   label: Cart
   provider: commerce_cart
-  label_display: visible
-  dropdown: true
+  label_display: '0'
+  dropdown: false
 visibility: {  }

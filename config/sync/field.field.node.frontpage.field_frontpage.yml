@@ -1,0 +1,57 @@
+uuid: d393fa6f-bb3c-4d6d-bfdc-3167db70935e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_frontpage
+    - node.type.frontpage
+    - paragraphs.paragraphs_type.image_text
+    - paragraphs.paragraphs_type.images
+    - paragraphs.paragraphs_type.text
+    - paragraphs.paragraphs_type.text_image
+    - paragraphs.paragraphs_type.views
+  module:
+    - entity_reference_revisions
+id: node.frontpage.field_frontpage
+field_name: field_frontpage
+entity_type: node
+bundle: frontpage
+label: frontpage
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      image_text: image_text
+      images: images
+      text: text
+      text_image: text_image
+      views: views
+    target_bundles_drag_drop:
+      image_text:
+        enabled: true
+        weight: 8
+      images:
+        enabled: true
+        weight: 9
+      nested_paragraph:
+        weight: 10
+        enabled: false
+      text:
+        enabled: true
+        weight: 11
+      text_image:
+        enabled: true
+        weight: 12
+      user:
+        weight: 13
+        enabled: false
+      views:
+        enabled: true
+        weight: 14
+field_type: entity_reference_revisions

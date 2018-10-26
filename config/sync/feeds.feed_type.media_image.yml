@@ -1,0 +1,74 @@
+uuid: 15eee148-51ca-4422-a39b-c8e3ff6cf7bd
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.media.image.field_media_image
+    - media.type.image
+  module:
+    - feeds_tamper
+    - media
+third_party_settings:
+  feeds_tamper:
+    tampers:
+      f9664f6d-0542-4ddd-a91e-acfcde505fbf:
+        separator: ','
+        limit: 10
+        plugin: explode
+        source: image
+        weight: 0
+        uuid: f9664f6d-0542-4ddd-a91e-acfcde505fbf
+label: 'Media Image'
+id: media_image
+description: 'Import images to Media'
+import_period: -1
+fetcher: upload
+fetcher_configuration:
+  allowed_extensions: 'txt csv tsv xml opml'
+  directory: 'private://feeds'
+parser: csv
+parser_configuration:
+  delimiter: ;
+  no_headers: false
+  line_limit: 100
+processor: 'entity:media'
+processor_configuration:
+  update_existing: 2
+  update_non_existent: _keep
+  expire: -1
+  owner_feed_author: true
+  owner_id: 0
+  authorize: true
+  skip_hash_check: false
+  values:
+    bundle: image
+custom_sources:
+  image:
+    label: Image
+    value: Image
+    machine_name: image
+  '':
+    label: ''
+    value: ''
+    machine_name: ''
+  title:
+    label: Title
+    value: Title
+    machine_name: title
+mappings:
+  -
+    target: field_media_image
+    map:
+      target_id: image
+      alt: title
+      title: title
+    settings:
+      reference_by: filename
+      existing: '0'
+      autocreate: 0
+  -
+    target: name
+    map:
+      value: title
+    unique:
+      value: '1'

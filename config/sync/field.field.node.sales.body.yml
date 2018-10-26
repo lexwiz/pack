@@ -1,0 +1,22 @@
+uuid: 8083cfce-91e1-484e-82d7-c495adf13f54
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.sales
+  module:
+    - text
+id: node.sales.body
+field_name: body
+entity_type: node
+bundle: sales
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,28 @@
+uuid: 5859eaa8-0388-46d1-8586-fe836ca86046
+langcode: ru
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.default
+    - field.storage.commerce_product_variation.field_photos
+    - media.type.image
+id: commerce_product_variation.default.field_photos
+field_name: field_photos
+entity_type: commerce_product_variation
+bundle: default
+label: Photos
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

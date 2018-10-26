@@ -1,0 +1,21 @@
+uuid: 9efe2f6e-3454-42da-bdac-b2ffdf4819c8
+langcode: ru
+status: true
+dependencies:
+  module:
+    - entity_reference_revisions
+    - node
+    - paragraphs
+id: node.field_frontpage
+field_name: field_frontpage
+entity_type: node
+type: entity_reference_revisions
+settings:
+  target_type: paragraph
+module: entity_reference_revisions
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

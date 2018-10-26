@@ -1,0 +1,17 @@
+uuid: fc853981-ae46-4cf4-96f8-75fe66dce7ce
+langcode: ru
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Sales
+type: sales
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
